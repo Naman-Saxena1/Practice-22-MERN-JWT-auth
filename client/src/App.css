@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.app-main-container
+{
+  text-align: center;
+  width: 50%;
+  margin: 2rem auto;
+  border-width: medium;
+  border-color: white;
+  border-style:solid;
+  border-radius: 0.6rem;
+}
+
+#registerBtn
+{
+  font-size: x-large;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: block;
+  margin:3rem auto;
+  min-width: 10rem;
+  color: white;
+  border-color: white;
+  border-width: medium;
+  background-color: transparent;
+}
+
+#loginBtn
+{
+  font-size: x-large;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: block;
+  margin:3rem auto;
+  min-width: 10rem;
+  color: white;
+  border-color: white;
+  border-width: medium;
+  background-color: transparent;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{ 
+  background-image: linear-gradient(120deg, #4bc9a9 0%, #133c4f 100%);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+  min-width: 548px;
+  width:40%;
+  margin: auto;
+}
+
+#register-app
+{
+  margin-bottom: 2rem;
+}
+
+#login-app
+{
+  margin-bottom: 2rem;
+}
+
+input
+{
+  margin-bottom: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+}
+
+button
+{
+  margin-top: 1rem;
+  padding: 0.6rem;
+  min-width: 6rem;
+  border-radius: 0.3rem;
+}
+
+.Dashboard-div
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#quote
+{
+  display: flex;
+  flex-direction: row;
+  overflow-wrap: break-word;
+  width: 80%;
+  height: fit-content;
+  max-width: 80%;
+  min-width: 50%;
+  resize: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  color: white;
+  border-width: 0;
+}
+
+#logoutLink
+{
+  font-size: x-large;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  position: fixed;
+  right:0;
+  display: block;
+  min-width: 10rem;
+  color: white;
+  border-color: white;
+  border-width: medium;
+  background-color: transparent;
+}
